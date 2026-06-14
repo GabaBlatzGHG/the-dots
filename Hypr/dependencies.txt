@@ -1,0 +1,34 @@
+# Hypr-preinstall dependency list (Arch Linux / pacman)
+
+## Required packages (official repos)
+hyprland
+hyprpaper
+waybar
+mako
+rofi
+ghostty
+dolphin
+firefox
+brightnessctl
+pamixer
+flameshot
+openrgb
+swaybg
+dbus
+gnome-settings-daemon
+qt6ct
+kvantum
+networkmanager
+network-manager-applet
+wireplumber
+playerctl
+
+## Copy/paste install command (official repos only)
+sudo pacman -S --needed hyprland hyprpaper waybar mako rofi ghostty dolphin firefox brightnessctl pamixer flameshot openrgb swaybg dbus gnome-settings-daemon qt6ct kvantum networkmanager network-manager-applet wireplumber playerctl
+
+## Optional / likely AUR
+# helium-browser
+
+## Notes
+# - Your config currently starts BOTH swaybg and hyprpaper for wallpaper; usually you only need one.
+# - Ensure the wallpaper path used in hypr.conf exists on the target machine.
